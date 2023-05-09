@@ -1,0 +1,102 @@
+.main_container{
+    width: 100%;
+    height: 25rem;
+}
+
+.info{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.redes{
+    width: 100%;
+    height: 20%;
+    border-bottom: 2px solid hsla(0,0%,62%,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_box {
+    width: 200px;
+    height: max-content;
+}
+
+.info_box> a {
+    display: block;
+    color: #616161;
+    width: max-content;
+    margin-top: 0.5rem;
+}
+
+.icon_link {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.icon_link > p {
+    margin-left: 1rem;
+    color: #616161;
+    width: max-content;
+}
+
+.info_box > h1, .subscribe_box > h1 {
+    color: #212121;
+    font-family: Ubuntu-Bold,sans-serif;
+    font-size: 1rem;
+    margin: 15px 0;
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+    font-weight: 600;
+}
+
+.info_box, .subscribe_box{
+    height: 85%;
+}
+
+.subscribe_box{
+    margin-left: 6rem;
+    margin-right: 2rem;
+}
+
+.subscribe_box > h1 {
+    width: 8rem;
+}
+
+.subscribe_box >  .email_input{
+    position: relative;
+    height: 1.5rem;
+    width: 12rem;
+}
+
+.email_input > img {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+ .email_input > input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+ }
+
+ .redes_icon {
+    width: max-content;
+ }
+
+ .redes_icon > img {
+    width: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.main_container > p {
+    text-align: center;
+    font-size: 12px;
+    padding: 1rem;
+    color: #7e92b2;
+}

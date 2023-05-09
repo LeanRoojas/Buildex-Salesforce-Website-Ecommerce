@@ -1,0 +1,12 @@
+<!--
+  @description       : 
+  @author            : leandro.rojas@globant.com
+  @group             : 
+  @last modified on  : 02-05-2023
+  @last modified by  : leandro.rojas@globant.com
+-->
+<aura:component implements="forceCommunity:themeLayout" access="global" description="Example Theme Layout">
+  <c:landingPage_header aura:id="LandingPage_header"/>
+    {!v.body}
+  <c:landingPage_footer aura:id="LandingPage_footer"/>
+</aura:component>
